@@ -6,6 +6,12 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 
+from Pages.forgot_page import ForgotPage
+from Pages.home_page import HomePage
+from helpers.data_generator import get_random_string
+from helpers.CommonActions import CommonActions
+
+
 class FBPage(BasePage):
     """
     Locators on FB Page
@@ -13,9 +19,14 @@ class FBPage(BasePage):
     EMAIL_FIELD = (By.ID,'email')
     PASSWORD_FIELD = (By.ID, "pass")
     LOGIN_BUTTON = (By.XPATH,'//input[@data-testid="royal_login_button"]')
-    AVATAR = (By.XPATH, "//span[@class='_1vp5']")
-    HOME_LINK = (By.LINK_TEXT,'Home')
-
+    PROFILE_BUTTON = (By.XPATH, "//span[@class='_1vp5']")
+    #HOME_LINK = (By.LINK_TEXT,'Home')
+    HOME_LINK = (By.XPATH, ".// a[text() = 'Home']")
+    ADD_POST_BUTTON = (By.XPATH,".//span[text()='Compose Post']")
+    # ADD_POST_BUTTON = (By.XPATH,'//a[@data-testid = "ellipsis-sprout"]/div[contains(@class, "_1gr3")]')
+    SHARE_BUTTON = (By.XPATH,'//button[@data-testid="react-composer-post-button"]')
+    POST_FIELD = (By.XPATH,"//br[@data-text='true']/ancestor::div[@role='presentation']//div[@aria-autocomplete='list']")
+    FORGOT_LINK = (By.XPATH, ".//a[text()='Forgot account?']")
     """
     Test Data
     """
@@ -23,28 +34,40 @@ class FBPage(BasePage):
     password = 'PorscheGTS1623'
 
     def __init__(self, driver):
-        self.driver = driver
-        # self.driver = webdriver.Chrome('/Users/Kate/Desktop/FBTest/Tests/chromedriver')
+        super().__init__(driver)
         self.driver.maximize_window()
-        self.driver.save_screenshot('/Users/Kate/Desktop/FBTest/Tests/test_scr2.png')
+        wait = WebDriverWait(driver, 10)
 
-    def enter_email(self):
-         email_field = self.driver.find_element(*self.EMAIL_FIELD)
-         email_field.send_keys('pastbina1992@gmail.com')
-
-    def enter_password(self):
-         password_field = self.driver.find_element(*self.PASSWORD_FIELD)
-         password_field.send_keys('PorscheGTS1623')
-
-    def signin(self):
-         self.driver.find_element(*self.LOGIN_BUTTON).click()
+    def login_to_fb(self, email, password):
+        email = self.driver.find_element(*self.EMAIL_FIELD)
+        email.send_keys('pastbina1992@gmail.com')
+        password = self.driver.find_element(*self.PASSWORD_FIELD)
+        password.send_keys('PorscheGTS1623')
+        self.driver.find_element(*self.LOGIN_BUTTON).click()
+        return HomePage(self.driver)
 
     def is_avatar_displayed(self):
-         avatar = self.driver.find_element(*self.AVATAR)
+         avatar = self.driver.find_element(*self.PROFILE_BUTTON)
          return avatar.text == "Ekaterina"
+
+    def is_home_btn_present(self):
+        return CommonActions.wait_till_element_present(driver=self.driver, locator=(self.HOME_LINK))
 
     def click_on_home_button(self):
         home_button = self.driver.find_element(*self.HOME_LINK).click()
+        return HomePage(self.driver)
+
+    def open_forgot_page(self):
+        forgot_link = self.driver.find_element(*self.FORGOT_LINK)
+        forgot_link.click()
+        return ForgotPage(self.driver)
+
+    #def is_compose_post_form_displayed(self):
+     #   wait = WebDriverWait(self.driver, 10)
+     #  compose_post_form = wait.until(EC.presence_of_element_located(self.POST_FIELD))
+
+
+
 
 
 

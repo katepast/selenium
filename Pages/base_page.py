@@ -1,5 +1,3 @@
-from selenium import webdriver
-
 
 class BasePage(object):
 
@@ -8,3 +6,7 @@ class BasePage(object):
 
     def open(self):
         self.driver.get('https://www.facebook.com/')
+
+
+
+

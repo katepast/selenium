@@ -9,6 +9,8 @@ class TestLoginFb(BaseAutoLoginTest):
 
    def test_FBlogin(self):
         fb_page = FBPage(self.driver)
+        assert fb_page.is_home_btn_present()
         assert fb_page.is_avatar_displayed()
+
 
 

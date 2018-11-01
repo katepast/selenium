@@ -1,0 +1,3 @@
+[
+  "Tests/test_01_login_fb.py::TestLoginFb::test_FBlogin"
+]

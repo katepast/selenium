@@ -23,15 +23,10 @@ class FBPage(BasePage):
     #HOME_LINK = (By.LINK_TEXT,'Home')
     HOME_LINK = (By.XPATH, ".// a[text() = 'Home']")
     ADD_POST_BUTTON = (By.XPATH,".//span[text()='Compose Post']")
-    # ADD_POST_BUTTON = (By.XPATH,'//a[@data-testid = "ellipsis-sprout"]/div[contains(@class, "_1gr3")]')
     SHARE_BUTTON = (By.XPATH,'//button[@data-testid="react-composer-post-button"]')
     POST_FIELD = (By.XPATH,"//br[@data-text='true']/ancestor::div[@role='presentation']//div[@aria-autocomplete='list']")
     FORGOT_LINK = (By.XPATH, ".//a[text()='Forgot account?']")
-    """
-    Test Data
-    """
-    email = 'pastbina1992@gmail.com'
-    password = 'PorscheGTS1623'
+
 
     def __init__(self, driver):
         super().__init__(driver)
@@ -39,10 +34,10 @@ class FBPage(BasePage):
         wait = WebDriverWait(driver, 10)
 
     def login_to_fb(self, email, password):
-        email = self.driver.find_element(*self.EMAIL_FIELD)
-        email.send_keys('pastbina1992@gmail.com')
-        password = self.driver.find_element(*self.PASSWORD_FIELD)
-        password.send_keys('PorscheGTS1623')
+        email_el = self.driver.find_element(*self.EMAIL_FIELD)
+        email_el.send_keys(email)
+        password_el = self.driver.find_element(*self.PASSWORD_FIELD)
+        password_el.send_keys(password)
         self.driver.find_element(*self.LOGIN_BUTTON).click()
         return HomePage(self.driver)
 

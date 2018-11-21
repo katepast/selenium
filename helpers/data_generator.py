@@ -6,6 +6,7 @@ def get_random_string(length):
     res = ""
     for i in range(length):
         res += choice(source)
+        res = res + choice(source)
     return res
 res = get_random_string(50)
 print(res)

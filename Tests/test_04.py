@@ -1,6 +1,4 @@
-import unittest
-from time import time, sleep
-
+import pytest
 from Pages.forgot_page import ForgotPage
 from Tests.base_test import BaseTest
 

@@ -1,3 +1,12 @@
 [
-  "Tests/test_01_login_fb.py::TestLoginFb::test_FBlogin"
+  "Tests/test_01_login_fb.py::TestLoginFb::()::test_FBlogin",
+  "Tests/test_02_add_post.py::TestAddPost::()::test_addPost",
+  "Tests/test_03_open_forgot_page.py::TestClickForgotTest::()::test_addPost",
+  "Tests/test_04.py::TestClickForgotTest::()::test_addPost",
+  "Tests/test_05.py::TestClickForgotTest::()::test_addPost",
+  "Tests/test_06_open_profile.py::TestOpenProfilePage::()::test_profile_page",
+  "Tests/test_07_save_post.py::TestAddPost::()::test_addPost",
+  "Tests/test_08_open_video_section.py::TestOpenProfilePage::()::test_profile_page",
+  "Tests/test_09_open_checkins_section.py::TestOpenProfilePage::()::test_profile_page",
+  "Tests/test_10_open_sports_section.py::TestOpenProfilePage::()::test_profile_page"
 ]

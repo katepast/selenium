@@ -1,9 +1,7 @@
-import unittest
 from time import time
-
+import pytest
 from Pages.fb_login_page import FBPage
 from Tests.base_test import BaseTest
-
 
 class BaseAutoLoginTest(BaseTest):
 
@@ -19,3 +17,5 @@ class BaseAutoLoginTest(BaseTest):
                 self.__class__.__name__, time()))
         self.driver.quit()
 
+if __name__ == "__main__":
+    pytest.main()

@@ -2,28 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffddd2b0-d66e-43af-a296-8e3d6b1fec50" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pages/forgot_page.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pages/home_page.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pages/profile_page.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Screenshots/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/base_test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/test_03_open_forgot_page.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/test_04.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/test_05.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/test_06_open_profile.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/test_07_save_post.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/test_08_open_video_section.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/test_09_open_checkins_section.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/helpers/CommonActions.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/helpers/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/helpers/data_generator.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pages/base_page.py" afterPath="$PROJECT_DIR$/Pages/base_page.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tests/test_10_open_sports_section.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conftest.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Tests/screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Tests/screen_TestLoginFb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Tests/screen_TestLoginFb_1531933331.1179438.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Tests/screen_TestLoginFb_1531933794.6212895.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Tests/screen_TestLoginFb_1531933941.288955.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Tests/screen_TestLoginFb_1531934053.5541801.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Tests/screen_TestLoginFb_1531934535.7423942.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pages/fb_login_page.py" afterPath="$PROJECT_DIR$/Pages/fb_login_page.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pages/forgot_page.py" afterPath="$PROJECT_DIR$/Pages/forgot_page.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pages/profile_page.py" afterPath="$PROJECT_DIR$/Pages/profile_page.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/base_auto_login_test.py" afterPath="$PROJECT_DIR$/Tests/base_auto_login_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/test_01_login_fb.py" afterPath="$PROJECT_DIR$/Tests/test_01_login_fb.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/base_test.py" afterPath="$PROJECT_DIR$/Tests/base_test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/test_02_add_post.py" afterPath="$PROJECT_DIR$/Tests/test_02_add_post.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/test_04.py" afterPath="$PROJECT_DIR$/Tests/test_04.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/test_05.py" afterPath="$PROJECT_DIR$/Tests/test_05.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/test_06_open_profile.py" afterPath="$PROJECT_DIR$/Tests/test_06_open_profile.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/test_07_save_post.py" afterPath="$PROJECT_DIR$/Tests/test_07_save_post.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/test_08_open_video_section.py" afterPath="$PROJECT_DIR$/Tests/test_08_open_video_section.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/test_09_open_checkins_section.py" afterPath="$PROJECT_DIR$/Tests/test_09_open_checkins_section.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configs/config.py" afterPath="$PROJECT_DIR$/configs/config.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helpers/data_generator.py" afterPath="$PROJECT_DIR$/helpers/data_generator.py" />
     </list>
     <ignored path="FBTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,17 +41,17 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="DockManager">
-    <window id="4">
+    <window id="3">
       <content type="file-editors">
         <state>
           <leaf>
-            <file leaf-file-name="profile_page.py" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/Pages/profile_page.py">
+            <file leaf-file-name="test_10_open_sports_section.py" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/Tests/test_10_open_sports_section.py">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="663">
-                    <caret line="39" column="0" selection-start-line="35" selection-start-column="3" selection-end-line="39" selection-end-column="0" />
+                  <state relative-caret-position="136">
+                    <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="40" />
                     <folding>
-                      <element signature="e#0#43#0" expanded="true" />
+                      <element signature="e#0#13#0" expanded="true" />
                     </folding>
                   </state>
                 </provider>
@@ -68,28 +71,8 @@
       <file leaf-file-name="base_page.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pages/base_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base_test.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Tests/base_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base_auto_login_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/base_auto_login_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            <state relative-caret-position="204">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -98,22 +81,32 @@
       <file leaf-file-name="test_03_open_forgot_page.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/test_03_open_forgot_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="187">
               <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conftest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conftest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#0#21#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_08_open_video_section.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/test_08_open_video_section.py">
+      <file leaf-file-name="base_auto_login_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tests/base_auto_login_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="13" column="43" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="43" />
+            <state relative-caret-position="340">
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
               <folding>
-                <element signature="e#0#22#0" expanded="true" />
+                <element signature="e#0#21#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,43 +115,53 @@
       <file leaf-file-name="fb_login_page.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pages/fb_login_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="33" column="30" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="30" />
+            <state relative-caret-position="476">
+              <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home_page.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pages/home_page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forgot_page.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pages/forgot_page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_09_open_checkins_section.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test_09_open_checkins_section.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/test_09_open_checkins_section.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            <state relative-caret-position="136">
+              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
               <folding>
-                <element signature="e#0#22#0" expanded="true" />
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_08_open_video_section.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tests/test_08_open_video_section.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile_page.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pages/profile_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/configs/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -183,34 +186,43 @@
         <option value="$PROJECT_DIR$/Pages/ForgotPage.py" />
         <option value="$PROJECT_DIR$/Tests/test_open_forgot_page.py" />
         <option value="$PROJECT_DIR$/Tests/base_forgot_page_test.py" />
-        <option value="$PROJECT_DIR$/Tests/base_test.py" />
         <option value="$PROJECT_DIR$/Tests/test_03_open_forgot_page.py" />
-        <option value="$PROJECT_DIR$/Tests/base_auto_login_test.py" />
         <option value="$PROJECT_DIR$/Pages/base_page.py" />
         <option value="$PROJECT_DIR$/Tests/test_01_login_fb.py" />
-        <option value="$PROJECT_DIR$/Tests/test_02_add_post.py" />
         <option value="$PROJECT_DIR$/Pages/personal_page.py" />
-        <option value="$PROJECT_DIR$/Pages/fb_login_page.py" />
         <option value="$PROJECT_DIR$/Tests/test_06_save_post.py" />
-        <option value="$PROJECT_DIR$/Tests/test_07_save_post.py" />
-        <option value="$PROJECT_DIR$/Pages/home_page.py" />
-        <option value="$PROJECT_DIR$/Tests/test_05.py" />
+        <option value="$PROJECT_DIR$/Tests/test_08_open_chekins_section.py" />
+        <option value="$PROJECT_DIR$/Tests/test_09_open_video_section.py" />
+        <option value="$PROJECT_DIR$/Reports/HTMLTestRunner.py" />
+        <option value="$PROJECT_DIR$/Pages/test.py" />
         <option value="$PROJECT_DIR$/Pages/forgot_page.py" />
         <option value="$PROJECT_DIR$/helpers/CommonActions.py" />
         <option value="$PROJECT_DIR$/helpers/data_generator.py" />
-        <option value="$PROJECT_DIR$/Tests/test_08_open_chekins_section.py" />
-        <option value="$PROJECT_DIR$/Tests/test_09_open_video_section.py" />
-        <option value="$PROJECT_DIR$/Tests/test_08_open_video_section.py" />
+        <option value="$PROJECT_DIR$/Tests/suit_test.py" />
+        <option value="$PROJECT_DIR$/Tests/__init__.py" />
         <option value="$PROJECT_DIR$/Pages/profile_page.py" />
+        <option value="$PROJECT_DIR$/Pages/home_page.py" />
+        <option value="$PROJECT_DIR$/Tests/test_02_add_post.py" />
+        <option value="$PROJECT_DIR$/Tests/test_04.py" />
+        <option value="$PROJECT_DIR$/Tests/test_05.py" />
+        <option value="$PROJECT_DIR$/Tests/test_06_open_profile.py" />
+        <option value="$PROJECT_DIR$/Tests/test_07_save_post.py" />
+        <option value="$PROJECT_DIR$/Tests/base_auto_login_test.py" />
+        <option value="$PROJECT_DIR$/Tests/base_test.py" />
+        <option value="$PROJECT_DIR$/configs/config.py" />
+        <option value="$PROJECT_DIR$/conftest.py" />
+        <option value="$PROJECT_DIR$/Tests/test_08_open_video_section.py" />
+        <option value="$PROJECT_DIR$/Tests/test_10_open_sports_section.py" />
+        <option value="$PROJECT_DIR$/Pages/fb_login_page.py" />
         <option value="$PROJECT_DIR$/Tests/test_09_open_checkins_section.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1951" />
+    <option name="x" value="119" />
     <option name="y" value="19" />
-    <option name="width" value="1270" />
-    <option name="height" value="1157" />
+    <option name="width" value="1705" />
+    <option name="height" value="1092" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -327,14 +339,14 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Tests/test_09_open_checkins_section.py" />
     <property name="SearchEverywhereHistoryKey" value="test_08_open_video_section&#9;null&#9;null" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -345,12 +357,12 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\kate.pastbina\Desktop\FBTest\Tests" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\kate.pastbina\Desktop\FBTest" />
       <recent name="C:\Users\kate.pastbina\Desktop\FBTest\drivers" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kate.pastbina\Desktop\FBTest\Tests" />
     </key>
   </component>
   <component name="RunManager" selected="Python tests.py.test in test_09_open_checkins_section.py">
@@ -378,7 +390,7 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="py.test in test_09_open_video_section.py" type="tests" factoryName="py.test" temporary="true">
+    <configuration default="false" name="py.test in test_05.py" type="tests" factoryName="py.test" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -395,14 +407,14 @@
       <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="$PROJECT_DIR$/Tests/test_09_open_video_section.py" />
+      <option name="testToRun" value="$PROJECT_DIR$/Tests/test_05.py" />
       <option name="keywords" value="" />
       <option name="params" value="" />
       <option name="USE_PARAM" value="false" />
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="py.test in test_08_open_chekins_section.py" type="tests" factoryName="py.test" temporary="true">
+    <configuration default="false" name="py.test in test_06_open_profile.py" type="tests" factoryName="py.test" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -419,7 +431,31 @@
       <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="$PROJECT_DIR$/Tests/test_08_open_chekins_section.py" />
+      <option name="testToRun" value="$PROJECT_DIR$/Tests/test_06_open_profile.py" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="py.test in test_10_open_sports_section.py" type="tests" factoryName="py.test" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FBTest" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="$PROJECT_DIR$/Tests/test_10_open_sports_section.py" />
       <option name="keywords" value="" />
       <option name="params" value="" />
       <option name="USE_PARAM" value="false" />
@@ -450,28 +486,7 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="py.test in test_08_open_video_section.py" type="tests" factoryName="py.test" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FBTest" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="$PROJECT_DIR$/Tests/test_08_open_video_section.py" />
-      <option name="keywords" value="" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="false" />
+    <configuration default="true" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -501,6 +516,40 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="FBTest" />
+      <method />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FBTest" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FBTest" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -608,19 +657,42 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="5">
+    <configuration default="false" name="Unnamed" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="C:\Program Files (x86)\Python36-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FBTest" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tests/test_09_open_checkins_section.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_02_add_post.py" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_09_open_video_section.py" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_08_open_chekins_section.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_09_open_checkins_section.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_08_open_video_section.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_05.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_06_open_profile.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_10_open_sports_section.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_09_open_checkins_section.py" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.Unnamed" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_09_open_checkins_section.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_08_open_video_section.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_09_open_video_section.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_08_open_chekins_section.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_10_open_sports_section.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_06_open_profile.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_05.py" />
         <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_02_add_post.py" />
       </list>
     </recent_temporary>
@@ -657,35 +729,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_test_08_open_video_section_py - 2018.10.31 at 19h 57m 58s.xml">
-      <configuration name="py.test in test_08_open_video_section.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_08_open_video_section_py - 2018.10.31 at 19h 58m 31s.xml">
-      <configuration name="py.test in test_08_open_video_section.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_08_open_video_section_py - 2018.10.31 at 19h 58m 54s.xml">
-      <configuration name="py.test in test_08_open_video_section.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_08_open_video_section_py - 2018.10.31 at 20h 03m 05s.xml">
-      <configuration name="py.test in test_08_open_video_section.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_08_open_video_section_py - 2018.10.31 at 20h 03m 54s.xml">
-      <configuration name="py.test in test_08_open_video_section.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_08_open_video_section_py - 2018.10.31 at 20h 05m 17s.xml">
-      <configuration name="py.test in test_08_open_video_section.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_08_open_video_section_py - 2018.10.31 at 20h 06m 02s.xml">
-      <configuration name="py.test in test_08_open_video_section.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_08_open_video_section_py - 2018.10.31 at 20h 07m 36s.xml">
-      <configuration name="py.test in test_08_open_video_section.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_08_open_video_section_py - 2018.10.31 at 20h 18m 25s.xml">
-      <configuration name="py.test in test_08_open_video_section.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_09_open_checkins_section_py - 2018.10.31 at 20h 18m 45s.xml">
+    <history-entry file="py_test_in_test_09_open_checkins_section_py - 2018.11.21 at 21h 02m 14s.xml">
       <configuration name="py.test in test_09_open_checkins_section.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_09_open_checkins_section_py - 2018.11.21 at 21h 02m 35s.xml">
+      <configuration name="py.test in test_09_open_checkins_section.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_09_open_checkins_section_py - 2018.11.21 at 21h 03m 56s.xml">
+      <configuration name="py.test in test_09_open_checkins_section.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_10_open_sports_section_py - 2018.11.21 at 20h 42m 28s.xml">
+      <configuration name="py.test in test_10_open_sports_section.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_10_open_sports_section_py - 2018.11.21 at 20h 45m 07s.xml">
+      <configuration name="py.test in test_10_open_sports_section.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_10_open_sports_section_py - 2018.11.21 at 20h 50m 54s.xml">
+      <configuration name="py.test in test_10_open_sports_section.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_10_open_sports_section_py - 2018.11.21 at 20h 52m 28s.xml">
+      <configuration name="py.test in test_10_open_sports_section.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_10_open_sports_section_py - 2018.11.21 at 20h 55m 22s.xml">
+      <configuration name="py.test in test_10_open_sports_section.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_10_open_sports_section_py - 2018.11.21 at 20h 56m 03s.xml">
+      <configuration name="py.test in test_10_open_sports_section.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_10_open_sports_section_py - 2018.11.21 at 20h 56m 08s.xml">
+      <configuration name="py.test in test_10_open_sports_section.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -698,20 +770,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1951" y="19" width="1270" height="1157" extended-state="0" />
+    <frame x="119" y="19" width="1705" height="1092" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19074675" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14097181" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998997" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898697" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32817337" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898697" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6585366" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35833332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24956672" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898697" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18854167" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48678413" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28988326" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -741,109 +813,22 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/Tests/test_05.py</url>
-          <line>14</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/Tests/test_08_open_video_section.py</url>
-          <line>11</line>
+          <line>10</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="22" />
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Tests/test_04.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test_05.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/base_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/base_auto_login_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/base_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test_01_login_fb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpers/data_generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/fb_login_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#30#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/forgot_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/base_auto_login_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#15#0" expanded="false" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -885,7 +870,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#15#0" expanded="false" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -927,7 +912,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#15#0" expanded="false" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -968,20 +953,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files (x86)/Python36-32/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="732">
-          <caret line="728" column="0" selection-start-line="728" selection-start-column="0" selection-end-line="728" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/platform.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -993,24 +964,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test_06_open_profile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test_01_login_fb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1038,34 +991,112 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Program Files (x86)/Python36-32/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="191" column="0" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reports/HTMLTestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1262">
+          <caret line="820" column="34" selection-start-line="820" selection-start-column="34" selection-end-line="820" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/forgot_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="98" selection-start-line="37" selection-start-column="98" selection-end-line="37" selection-end-column="98" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers/CommonActions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Python36-32/Lib/contextlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Python36-32/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="604" column="0" selection-start-line="604" selection-start-column="0" selection-end-line="604" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/helpers/data_generator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="136">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/suit_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/home_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/test_05.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test_04.py">
+    <entry file="file://$PROJECT_DIR$/Tests/test_06_open_profile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test_02_add_post.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1073,115 +1104,151 @@
     <entry file="file://$PROJECT_DIR$/Tests/test_07_save_post.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpers/CommonActions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
           <folding>
-            <element signature="e#0#43#0" expanded="false" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/home_page.py">
+    <entry file="file://$PROJECT_DIR$/Tests/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/forgot_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/fb_login_page.py">
+    <entry file="file://$PROJECT_DIR$/project.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="33" column="30" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files (x86)/Python36-32/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="604" column="0" selection-start-line="604" selection-start-column="0" selection-end-line="604" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test_03_open_forgot_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test_08_open_video_section.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="43" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test_09_open_checkins_section.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/base_auto_login_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/base_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        <state relative-caret-position="51">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/base_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        <state relative-caret-position="51">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/test_01_login_fb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/test_04.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/test_02_add_post.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/base_auto_login_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pages/profile_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="0" selection-start-line="35" selection-start-column="3" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="51">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/test_03_open_forgot_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/base_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/test_08_open_video_section.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/fb_login_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/test_10_open_sports_section.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/test_09_open_checkins_section.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>

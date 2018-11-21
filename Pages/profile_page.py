@@ -17,9 +17,8 @@ class ProfilePage(BasePage):
     PRESENCE_DROP_DOWN_BY_HOVER = (By.XPATH, ".//button[@class='hideToggler' and @type ='button']")
     CHEKINS_OPTION = (By.XPATH,".//li[@data-tab-key='map']//span[text()='Check-ins']")
     CHEKINS_TITLE = (By.XPATH, ".//a[text()='Check-ins']")
-    SPORTS_OPTION = ()
-    link_xpath = ".//li[ @data-tab-key='{}']//span[text()='{}']"
-    link_main_xpath = ".//ul[@role = 'menu']//li[@data - tab - key = 'sports']"
+    option_main_xpath = ".//ul[@role = 'menu']//li[@data-tab-key='{}']"
+    title_main_xpath = ".//a[text()='{}']"
 
     def click_on_profile_button(self):
         profile_button = self.driver.find_element(*self.PROFILE_BUTTON)
@@ -44,9 +43,22 @@ class ProfilePage(BasePage):
            assert videos_title.text == "Videos"
 
     def select_chekins_option(self):
-        chekins_hover = self.driver.find_element(*self.CHEKINS_OPTION)
-        chekins_hover.click()
+        if CommonActions.wait_till_element_present(driver=self.driver, locator=(self.CHEKINS_OPTION)):
+           chekins_hover = self.driver.find_element(*self.CHEKINS_OPTION)
+           chekins_hover.click()
 
     def is_displayed_checkins_title(self):
-        videos_title = self.driver.find_element(*self.CHEKINS_TITLE)
-        assert videos_title.text == "Check-ins"
+        if CommonActions.wait_till_element_present(driver=self.driver, locator=(self.CHEKINS_TITLE)):
+           chekins_title = self.driver.find_element(*self.CHEKINS_TITLE)
+           assert chekins_title.text == "Check-ins"
+
+    def select_sports_option(self):
+        if CommonActions.wait_till_element_present(driver=self.driver, locator=(By.XPATH, self.option_main_xpath.format('sports'))):
+           video_hover = self.driver.find_element(*self.option_main_xpath.format('sports'))
+           video_hover.click()
+
+
+    def is_displayed_sports_title(self):
+       if CommonActions.wait_till_element_present(driver=self.driver, locator=(By.XPATH, self.title_main_xpath.format('Sports'))):
+          videos_title = self.driver.find_element(*self.title_main_xpath.format('Sports'))
+          assert videos_title.text == "Sports"

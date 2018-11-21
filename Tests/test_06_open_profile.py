@@ -1,8 +1,5 @@
-import unittest
-from time import time, sleep
-
+import pytest
 from Pages.profile_page import ProfilePage
-
 from Tests.base_auto_login_test import BaseAutoLoginTest
 
 

@@ -1,3 +1,3 @@
 #User credentials
-email = 'pastbina1992@gmail.com'
+email = '****'
 password = '*****'
